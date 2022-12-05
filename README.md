@@ -1,1 +1,1 @@
-# rock-paper-scissors
+In this project, I am going to build the famous game rock-paper-scissors to demonstrate my basic understanding about JavaScript
