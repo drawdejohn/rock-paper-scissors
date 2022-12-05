@@ -77,12 +77,22 @@ function game() {
     
     if (userScore>computerScore) {
         // console.log("You win!");
+        resetScore()
         return "You win!";
     } else if (userScore<computerScore) {
         // console.log("Computer Wins!");
+        resetScore()
         return "Computer Wins!";
     } else {
         // console.log("It's a tie!");
+        resetScore()
         return "It's a tie!";
     }
+}
+
+// reset score
+
+function resetScore() {
+    userScore=0;
+    computerScore=0;
 }
