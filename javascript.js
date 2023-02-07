@@ -45,7 +45,7 @@ function playRound (playerSelection, computerSelection) {
                 output.textContent = "You Win! Rock beats Scissors";
                 userScore++;
             } else {
-                output.textContent = "It's a tie! You both choose Rock";
+                output.textContent = "It's a tie! You both chose Rock";
             }
         } else if (playerSelection=="paper") {
             if (computerSelection=="rock") {
@@ -55,7 +55,7 @@ function playRound (playerSelection, computerSelection) {
                 computerScore++;
                 output.textContent = "You Lose! Scissors beat Paper"
             } else {
-                output.textContent = "It's a tie! You both choose Paper"
+                output.textContent = "It's a tie! You both chose Paper"
             }
         } else {
             if (computerSelection=="rock") {
@@ -65,7 +65,7 @@ function playRound (playerSelection, computerSelection) {
                 userScore++;
                 output.textContent = "You Win! Scissors beat Paper"
             } else {
-                output.textContent = "It's a tie! You both choose Scissors"
+                output.textContent = "It's a tie! You both chose Scissors"
             }
         }
 
