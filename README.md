@@ -1,15 +1,22 @@
 # Rock-Paper-Scissors Game
-
 ## Overview
-This is a simple rock-paper-scissors game built with JavaScript. The purpose of this project is to demonstrate my understanding of basic JavaScript concepts, such as DOM manipulation and event handling.
+A simple rock-paper-scissors game built with HTML and JavaScript to demonstrate basic concepts such as DOM manipulation and event handling.
+
+## Live App
+You can play the game online by clicking [here](https://edwardjohnfelicia.github.io/rock-paper-scissors/)
 
 ## How to Play
-To play the game, simply click on one of the three buttons: Rock, Paper, or Scissors. The computer will randomly choose its move, and the winner will be determined based on the rules of the game.
-
-The first player to reach a score of 5 will be declared the winner. If you want to start a new game, simply refresh the page.
+To play the game, click on one of the three buttons: Rock, Paper, or Scissors. The computer randomly chooses its move, and the winner is determined based on the game's rules. The first player to reach a score of 5 wins the game. To start a new game, refresh the page.
 
 ## Technologies Used
-This project was built using HTML and JavaScript.
+* HTML
+* JavaScript
 
-## How to Run the Game
-To run the game, simply download the files and open the index.html file in your web browser. Alternatively, you can play the game online by clicking on the following link: [Rock-Paper-Scissors Game](https://edwardjohnfelicia.github.io/rock-paper-scissors/)
+## Features
+* Random computer selection
+* Score tracking
+* Declaration of winner
+* Reset game option
+
+## Credits
+This project was built as part of my web development course. The original idea came from The Odin Project's [Rock Paper Scissors project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors).
